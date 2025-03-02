@@ -1,7 +1,7 @@
 services:
   app:
     build: .
-    container_name: nestjs_14
+    container_name: nestjs_20
     ports:
       - "3000:3000"  # Maps port 3001 to the host
     networks:
