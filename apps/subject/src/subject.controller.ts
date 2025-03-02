@@ -6,7 +6,7 @@ export class SubjectController {
   constructor(private readonly subjectService: SubjectService) {}
 
   @Get()
-  getHello(): string {
+  getHello() {
     return this.subjectService.getHello();
   }
 }

@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3005
 
 # Step 7: Command to run the all app ie. main, studen, subject
-CMD ["npm", "run", "start:dev"]
+CMD ["npm", "run", "start:all"]
