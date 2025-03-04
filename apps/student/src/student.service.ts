@@ -20,7 +20,7 @@ export class StudentService {
 
 
   getHello() {
-    let str = 'Hello World ! Student Service';
+    let str = 'Hello World ! Student Service with RabbitMQ 01';
     console.log(str);
 
     return str;
